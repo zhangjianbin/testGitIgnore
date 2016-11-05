@@ -27,6 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		84D86E211DCDA24D007FBF05 /* CONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONST.h; sourceTree = "<group>"; };
 		84F6A6EF1DCDA1BF0085B2A3 /* gitignoreTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitignoreTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F6A6F31DCDA1BF0085B2A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		84F6A6F51DCDA1BF0085B2A3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +86,7 @@
 				84F6A6F61DCDA1BF0085B2A3 /* AppDelegate.m */,
 				84F6A6F81DCDA1BF0085B2A3 /* ViewController.h */,
 				84F6A6F91DCDA1BF0085B2A3 /* ViewController.m */,
+				84D86E211DCDA24D007FBF05 /* CONST.h */,
 				84F6A6FB1DCDA1BF0085B2A3 /* Main.storyboard */,
 				84F6A6FE1DCDA1BF0085B2A3 /* Assets.xcassets */,
 				84F6A7001DCDA1BF0085B2A3 /* LaunchScreen.storyboard */,
@@ -402,6 +404,7 @@
 				84F6A7131DCDA1C00085B2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84F6A7141DCDA1C00085B2A3 /* Build configuration list for PBXNativeTarget "gitignoreTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +413,7 @@
 				84F6A7161DCDA1C00085B2A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
