@@ -9,5 +9,5 @@
 #ifndef CONST_h
 #define CONST_h
 
-
+#define BDBASEURL                 @"http://123.57.54.170:7070/bd_cms_mobile/"
 #endif /* CONST_h */
