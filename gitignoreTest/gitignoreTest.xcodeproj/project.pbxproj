@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		53B7FDEB4755B571DE5680BB /* libPods-gitignoreTest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCB9CE0D1F64BDF806F3346 /* libPods-gitignoreTest.a */; };
 		84F6A6F41DCDA1BF0085B2A3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F6A6F31DCDA1BF0085B2A3 /* main.m */; };
 		84F6A6F71DCDA1BF0085B2A3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F6A6F61DCDA1BF0085B2A3 /* AppDelegate.m */; };
 		84F6A6FA1DCDA1BF0085B2A3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F6A6F91DCDA1BF0085B2A3 /* ViewController.m */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2BCB9CE0D1F64BDF806F3346 /* libPods-gitignoreTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-gitignoreTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		84D86E211DCDA24D007FBF05 /* CONST.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CONST.h; sourceTree = "<group>"; };
 		84F6A6EF1DCDA1BF0085B2A3 /* gitignoreTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitignoreTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F6A6F31DCDA1BF0085B2A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -41,6 +43,8 @@
 		84F6A7081DCDA1C00085B2A3 /* gitignoreTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gitignoreTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F6A70C1DCDA1C00085B2A3 /* gitignoreTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gitignoreTestUITests.m; sourceTree = "<group>"; };
 		84F6A70E1DCDA1C00085B2A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8AE91A7C5407B1329D02506B /* Pods-gitignoreTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitignoreTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-gitignoreTest/Pods-gitignoreTest.release.xcconfig"; sourceTree = "<group>"; };
+		9854AC20930750BC885781C8 /* Pods-gitignoreTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gitignoreTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-gitignoreTest/Pods-gitignoreTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53B7FDEB4755B571DE5680BB /* libPods-gitignoreTest.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,12 +66,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3333D4A4134105C970CF3DC9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9854AC20930750BC885781C8 /* Pods-gitignoreTest.debug.xcconfig */,
+				8AE91A7C5407B1329D02506B /* Pods-gitignoreTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84F6A6E61DCDA1BF0085B2A3 = {
 			isa = PBXGroup;
 			children = (
 				84F6A6F11DCDA1BF0085B2A3 /* gitignoreTest */,
 				84F6A70B1DCDA1C00085B2A3 /* gitignoreTestUITests */,
 				84F6A6F01DCDA1BF0085B2A3 /* Products */,
+				3333D4A4134105C970CF3DC9 /* Pods */,
+				E2711119A6DAA552DBEAFF3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,6 +129,14 @@
 			path = gitignoreTestUITests;
 			sourceTree = "<group>";
 		};
+		E2711119A6DAA552DBEAFF3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BCB9CE0D1F64BDF806F3346 /* libPods-gitignoreTest.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -120,9 +144,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84F6A7111DCDA1C00085B2A3 /* Build configuration list for PBXNativeTarget "gitignoreTest" */;
 			buildPhases = (
+				9652330FC0967FD4282FC1C9 /* [CP] Check Pods Manifest.lock */,
 				84F6A6EB1DCDA1BF0085B2A3 /* Sources */,
 				84F6A6EC1DCDA1BF0085B2A3 /* Frameworks */,
 				84F6A6ED1DCDA1BF0085B2A3 /* Resources */,
+				13BE2F584BF9C2690A66D779 /* [CP] Embed Pods Frameworks */,
+				FC74E0E52E4F01FDF5E52FDC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -209,6 +236,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		13BE2F584BF9C2690A66D779 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gitignoreTest/Pods-gitignoreTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9652330FC0967FD4282FC1C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC74E0E52E4F01FDF5E52FDC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-gitignoreTest/Pods-gitignoreTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84F6A6EB1DCDA1BF0085B2A3 /* Sources */ = {
@@ -343,6 +418,7 @@
 		};
 		84F6A7121DCDA1C00085B2A3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9854AC20930750BC885781C8 /* Pods-gitignoreTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = gitignoreTest/Info.plist;
@@ -354,6 +430,7 @@
 		};
 		84F6A7131DCDA1C00085B2A3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AE91A7C5407B1329D02506B /* Pods-gitignoreTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = gitignoreTest/Info.plist;
